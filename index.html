@@ -221,7 +221,7 @@ const Qs=[
     {t:"Staring at it for 20 minutes praying someone else handles it",v:"ghost"}
   ]},
   {t:"How would you actually want AI to slide into your workflow?",opts:[
-    {t:"Reply to my emails pretending to be me. Nobody finds out. Plot twist.",v:"burn"},
+    {t:"Reply to my emails pretending to be me. Nobody finds out. Plot twist.",v:"deck"},
     {t:"Drop a morning brief so I know what's coming. Like a butler but digital.",v:"data"},
     {t:"Do the thinking, I'll do the approving. CEO mode.",v:"ctrl"},
     {t:"Bestie I do not trust the robots. I'll do it myself thx",v:"solo"}
@@ -230,7 +230,7 @@ const Qs=[
     {t:"It moves to tomorrow every single day. Tomorrow never comes.",v:"sleep"},
     {t:"Added 3 sub-tasks. They're also undone. The list grew.",v:"grid"},
     {t:"Did it at 11:47pm on a Sunday crying slightly",v:"burn"},
-    {t:"Delegated it. They also haven't done it. We don't talk about it.",v:"ctrl"}
+    {t:"Delegated it. They also haven't done it. We don't talk about it.",v:"copy"}
   ]},
   {t:"Define a productive day for you no lies:",opts:[
     {t:"Inbox cleared, follow-ups sent, no balls dropped. Chef's kiss.",v:"load"},
@@ -239,7 +239,7 @@ const Qs=[
     {t:"Made tomorrow's list so good it counts as today's work right?",v:"grid"}
   ]},
   {t:"Someone sends you a 400-word email. The vibe?",opts:[
-    {t:"Read every word. Reply with 600. Anxiety is my love language.",v:"load"},
+    {t:"Read every word. Reply with 600. Anxiety is my love language.",v:"nice"},
     {t:"Skimmed it, missed the actual ask, replied to the wrong part",v:"wher"},
     {t:"Forwarded with 'thoughts?' and made it someone else's problem",v:"ctrl"},
     {t:"Opened it. Felt tired. Closed it. Repeat for 4 days. We've been here.",v:"ghost"}
@@ -253,7 +253,7 @@ const Qs=[
   {t:"This meeting could have been an email. Your move?",opts:[
     {t:"Say nothing. Attend. Suffer in silence like a real one.",v:"nice"},
     {t:"Reschedule it three times then attend reluctantly",v:"sleep"},
-    {t:"Turn it into an email unilaterally. No regrets. No texts.",v:"solo"},
+    {t:"Turn it into an email unilaterally. No regrets. No texts.",v:"deck"},
     {t:"Add three more people for absolutely no reason. Energy.",v:"ping"}
   ]},
   {t:"Your notes app is giving:",opts:[
@@ -264,21 +264,21 @@ const Qs=[
   ]},
   {t:"When AI writes something for you, what's the move?",opts:[
     {t:"Post it immediately. Looks fine. Cannot be stopped.",v:"vibe"},
-    {t:"Edit every word until it sounds like me, defeating the entire purpose",v:"ctrl"},
+    {t:"Edit every word until it sounds like me, defeating the entire purpose",v:"copy"},
     {t:"Feel weirdly guilty. Add a disclaimer nobody asked for.",v:"nice"},
     {t:"Refuse on principle. Spend 4 hours writing it myself. Suffer.",v:"solo"}
   ]},
   {t:"A colleague asks you to review something. Your timeline:",opts:[
     {t:"Done immediately. Thoroughly. Probably overengineered.",v:"load"},
     {t:"Said yes. Forgot. Remembered at midnight. Did it at 1am.",v:"burn"},
-    {t:"Gave feedback so detailed it's basically my document now",v:"ctrl"},
+    {t:"Gave feedback so detailed it's basically my document now",v:"deck"},
     {t:"Said 'looks good!' having read zero words. Trust the vibes.",v:"wher"}
   ]},
   {t:"Follow-ups. How.",opts:[
     {t:"I have a system. The system is anxiety. It works.",v:"load"},
     {t:"Follow up once then leave it to the universe to decide",v:"ghost"},
     {t:"Automated. Fire and forget. I do not think about it.",v:"data"},
-    {t:"Drafted the follow-up. Never sent it. Drafts folder is full.",v:"ghost"}
+    {t:"Drafted the follow-up. Never sent it. Drafts folder is full.",v:"sleep"}
   ]},
   {t:"Your relationship with your calendar is:",opts:[
     {t:"Sacred. Nothing moves without my approval. I am the gatekeeper.",v:"ctrl"},
@@ -299,20 +299,20 @@ const Qs=[
     {t:"Open laptop. Stare. Close laptop. Open laptop. Repeat.",v:"wher"}
   ]},
   {t:"Someone says 'can't AI just do that for you?' Your honest reaction:",opts:[
-    {t:"Yes and I need to figure that out yesterday",v:"data"},
-    {t:"Maybe? Where do I even start though. Anyone got a tutorial.",v:"copy"},
-    {t:"Tried ChatGPT once. It was wrong. Now I'm scarred forever.",v:"ctrl"},
+    {t:"Yes and I need to figure that out yesterday",v:"copy"},
+    {t:"Maybe? Where do I even start though. Anyone got a tutorial.",v:"nice"},
+    {t:"Tried ChatGPT once. It was wrong. Now I'm scarred forever.",v:"deck"},
     {t:"I genuinely enjoy doing it manually it gives me control issues",v:"solo"}
   ]},
   {t:"Your biggest work fear is:",opts:[
-    {t:"Something important slipping through the cracks while I sleep",v:"load"},
+    {t:"Something important slipping through the cracks while I sleep",v:"ghost"},
     {t:"Getting replaced by a system I don't even understand",v:"solo"},
     {t:"Running out of things to personally micromanage",v:"ctrl"},
     {t:"Realising I've been the bottleneck this whole time. Spiral.",v:"burn"}
   ]},
   {t:"How do you feel about something acting on your behalf?",opts:[
     {t:"Love it. Just show me the outcome. Trust the process.",v:"vibe"},
-    {t:"Fine for small stuff. I want eyes on anything real.",v:"data"},
+    {t:"Fine for small stuff. I want eyes on anything real.",v:"ping"},
     {t:"Deeply uncomfy. What if it gets the tone wrong. Spiraling.",v:"ctrl"},
     {t:"Absolutely not. My name is on everything. Trust no one.",v:"solo"}
   ]},
@@ -324,14 +324,14 @@ const Qs=[
   ]},
   {t:"A tool says it'll 'save you 10 hours a week.' You:",opts:[
     {t:"Sign up immediately. Use it for two days. Forget about it.",v:"fomo"},
-    {t:"Calculate exactly which 10 hours and get excited",v:"data"},
+    {t:"Calculate exactly which 10 hours and get excited",v:"deck"},
     {t:"Wonder who those 10 hours are being saved for because it's not me",v:"burn"},
     {t:"Add it to a list of tools to evaluate properly one day. Soon.",v:"sleep"}
   ]},
   {t:"AI can now do your most hated task. Your reaction:",opts:[
     {t:"Tears of relief. When can it start. Today? Today.",v:"burn"},
-    {t:"Suspicious. What's the catch. There's always a catch.",v:"ctrl"},
-    {t:"Protective. That task is mine even if I hate it. Stockholm.",v:"solo"},
+    {t:"Suspicious. What's the catch. There's always a catch.",v:"copy"},
+    {t:"Protective. That task is mine even if I hate it. Stockholm.",v:"ping"},
     {t:"I already outsourced it. To someone who also hates it.",v:"nice"}
   ]},
   {t:"Deadlines? Explain.",opts:[
@@ -348,14 +348,14 @@ const Qs=[
   ]},
   {t:"Someone offers to take a recurring task off your plate forever:",opts:[
     {t:"YES before they finish the sentence. Yes. Yes. Yes.",v:"burn"},
-    {t:"9 clarifying questions then yes. Process is everything.",v:"data"},
+    {t:"9 clarifying questions then yes. Process is everything.",v:"deck"},
     {t:"Yes. Then check in every day anyway. Trust issues.",v:"ctrl"},
-    {t:"Politely decline. I've built my identity around this task. RIP.",v:"solo"}
+    {t:"Politely decline. I've built my identity around this task. RIP.",v:"vibe"}
   ]},
   {t:"Your real relationship with AI tools rn:",opts:[
     {t:"Early adopter. Using 6 of them. They all kind of overlap.",v:"fomo"},
     {t:"Curious but haven't committed. The fear is real.",v:"copy"},
-    {t:"One bad experience and now I'm a cynic. Won't go back.",v:"ctrl"},
+    {t:"One bad experience and now I'm a cynic. Won't go back.",v:"ping"},
     {t:"Waiting for it to mature. My position since 2022 btw.",v:"sleep"}
   ]},
   {t:"Something goes wrong at work. First move?",opts:[
@@ -366,7 +366,7 @@ const Qs=[
   ]},
   {t:"Your inbox zero strategy:",opts:[
     {t:"Ruthless archive. Unsubscribe everything. Zero tolerance.",v:"load"},
-    {t:"Declare email bankruptcy every six months and start fresh",v:"fire"},
+    {t:"Declare email bankruptcy every six months and start fresh",v:"ghost"},
     {t:"Move emails into folders. Never look at the folders. Iconic.",v:"grid"},
     {t:"Inbox zero is a lie told by people with easy jobs",v:"burn"}
   ]},
@@ -374,12 +374,12 @@ const Qs=[
     {t:"Set the guardrails and let it cook. Send tweet.",v:"data"},
     {t:"Fine for low stakes. Eyes on anything real though.",v:"vibe"},
     {t:"I want to see every step and approve every move. Surveillance state.",v:"ctrl"},
-    {t:"Hard no. I'm the one explaining it when it goes wrong.",v:"solo"}
+    {t:"Hard no. I'm the one explaining it when it goes wrong.",v:"nice"}
   ]},
   {t:"A new AI tool goes viral. You:",opts:[
     {t:"Already been using it for two weeks. Catching up bestie.",v:"fomo"},
     {t:"Sign up. Explore for an hour. Never open it again.",v:"copy"},
-    {t:"Read the reviews. Wait to see if it's actually real. Skeptic.",v:"data"},
+    {t:"Read the reviews. Wait to see if it's actually real. Skeptic.",v:"deck"},
     {t:"See the tweet. Feel overwhelmed. Close the app. Lie down.",v:"wher"}
   ]},
   {t:"The truest thing anyone's ever said about how you work:",opts:[
@@ -389,13 +389,12 @@ const Qs=[
     {t:"'I don't know how you do it' (neither do I, honestly)",v:"burn"}
   ]},
   {t:"If your work style had a last text it would be:",opts:[
-    {t:"'On it' sent at 11:54pm",v:"load"},
-    {t:"'Just following up on my follow-up'",v:"ghost"},
+    {t:"'On it' sent at 11:54pm",v:"deck"},
+    {t:"'Just following up on my follow-up'",v:"data"},
     {t:"'Can we push this — just need another day'",v:"sleep"},
-    {t:"'lol yeah totally fine' (not fine. very not fine.)",v:"burn"}
+    {t:"'lol yeah totally fine' (not fine. very not fine.)",v:"vibe"}
   ]}
 ];
-
 const Types={
   load:{code:"LOAD-R",name:"The Pack Mule",color:"#1d6e62",autoScore:20,
     tagline:"Carries everything. Tells no one. Then wonders why they're tired.",
@@ -729,7 +728,7 @@ function pick(i,v){
 }
 function showResult(){
   const counts={};answers.forEach(a=>counts[a]=(counts[a]||0)+1);
-  const tk=Object.entries(counts).sort((a,b)=>b[1]-a[1])[0][0];
+  const tk=Object.entries(counts).sort((a,b)=>{if(b[1]!==a[1])return b[1]-a[1];return answers.indexOf(a[0])-answers.indexOf(b[0]);})[0][0];
   const T=Types[tk]||Types.burn;
   document.getElementById('quiz').classList.remove('active');
   const rw=document.getElementById('result');rw.classList.add('active');
